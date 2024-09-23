@@ -11,15 +11,33 @@ html {
   }
 
 .container { 
-    height: 503.2px;
-    width: 503.2px;
+    height: 504px;
+    width: 504px;
     border: 2px solid rgb(131, 4, 4);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
   }
  
-  .container > div {
+  .col {
     border: 1px solid black;
   }
+
+  .input {
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+
+  .input > p {
+    margin: 0;
+  }
+
+  .input * {
+    font-size: 1rem;
+    }
+
+    #reset {
+      margin-top: 1em;
+      font-size: 1.3rem;
+    }
 
