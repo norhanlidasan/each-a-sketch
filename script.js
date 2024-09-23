@@ -23,7 +23,7 @@ submit.addEventListener("click", () => {
     alert("You type more than 100");
     location.reload(); 
   } else if (input.value < 2) {
-    alert("You type more less than 2");
+    alert("You type less than 2");
   } else {
   let pixelValue = input.value;
   pixel = pixelValue;
